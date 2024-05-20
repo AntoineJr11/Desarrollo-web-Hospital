@@ -1,12 +1,40 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header */
+.header-li {
+    display: flex;
+    padding-top: 52px;
+    padding-right: 50px;
+    position: absolute;
+    right: 0;
 }
 
+.logogob {
+  padding: 20px;
+  width: 354px;
+}
 
-.header-li{
+.headerP {
+  display: flex;
+}
 
-position: relative;
+.liU {
+    padding: 19px;
+    list-style: none;
+}
+
+/* header */
+/* ------------------------------------------------------------------------ */
+
+/* body */
+
+.img-completa{
+
+width: 100%;
 
 }
+
+/* body */
