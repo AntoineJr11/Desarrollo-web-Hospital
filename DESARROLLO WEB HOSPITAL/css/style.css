@@ -16,14 +16,15 @@
 
 .div-img-logo-hospital{
 
-padding-left: 100px;
+    padding-top: 35px;
+padding-left: 20px;
 
 }
 
 .div-header-h1-Reloj{
 
 padding-top: 50px;
-padding-right: 20px;
+padding-right: 10px;
 
 }
 
@@ -37,24 +38,25 @@ padding-top: 30px;
 
 .div-header-h1-imgReloj{
 
-width: 50px;
-height: 60px;
-padding-top: px;
+width: 30px;
+height: 40px;
+
 
 }
 
 
 .div-header-p1{
 
-padding-left: 28px;
+padding-left: 15px;
 padding-top: 20px;
+padding-bottom: 15px;
 
 
 }
 
 .img-header {
-    padding: 20px;
-    width: 200px;
+    
+    width: 120px;
     padding-left: 20px;
     
 }
@@ -62,10 +64,10 @@ padding-top: 20px;
 .div-header-h1{
 
 position: relative;
-left: 20px;
-padding-top: 20px;
+left: 0px;
+padding-top: 10px;
 display: flex;
-padding-left: 100px;
+padding-left: 50px;
 
 }
 
@@ -75,14 +77,14 @@ padding-left: 100px;
 
 .div-header-h1-telefono{
 padding-top: 20px;
-padding-right: 20px;
+padding-right: 10px;
 
 }
 
 .div-header-h1-imgTelefono{
 
-    width: 50px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
     
 }
 
@@ -90,8 +92,8 @@ padding-right: 20px;
 .div2-header-h1{
 
     display: flex;
-    padding-left: 200px;
-    padding-top: 50px;
+    padding-left: 45px;
+    padding-top: 42px;
     
     }
     
@@ -103,11 +105,18 @@ padding-right: 20px;
     }
 
 
-.logogob {
-    padding: 20px;
-    width: 490px;
-    padding-right: 20px;
-}
+    .header-div-logogob{
+
+    padding-top: 35px;
+
+    }
+
+    .logogob {
+       
+        width: 250px;
+        height: 100px;
+        padding-right: 20px;
+    }
 
 .headerP {
   display: flex;
