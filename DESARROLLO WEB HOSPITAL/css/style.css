@@ -14,9 +14,99 @@
    
 }
 
+.div-img-logo-hospital{
+
+padding-left: 100px;
+
+}
+
+.div-header-h1-Reloj{
+
+padding-top: 50px;
+padding-right: 20px;
+
+}
+
+.div-header-h1-p1{
+
+padding-top: 30px;
+
+
+}
+
+
+.div-header-h1-imgReloj{
+
+width: 50px;
+height: 60px;
+padding-top: px;
+
+}
+
+
+.div-header-p1{
+
+padding-left: 28px;
+padding-top: 20px;
+
+
+}
+
+.img-header {
+    padding: 20px;
+    width: 200px;
+    padding-left: 20px;
+    
+}
+
+.div-header-h1{
+
+position: relative;
+left: 20px;
+padding-top: 20px;
+display: flex;
+padding-left: 100px;
+
+}
+
+
+
+
+
+.div-header-h1-telefono{
+padding-top: 20px;
+padding-right: 20px;
+
+}
+
+.div-header-h1-imgTelefono{
+
+    width: 50px;
+    height: 45px;
+    
+}
+
+
+.div2-header-h1{
+
+    display: flex;
+    padding-left: 200px;
+    padding-top: 50px;
+    
+    }
+    
+    .div2-header-p1{
+    
+    padding-top: 20px;
+    
+
+    }
+
+
 .logogob {
-  padding: 20px;
-  width: 354px;
+    padding: 20px;
+    width: 490px;
+    padding-right: 20px;
 }
 
 .headerP {
@@ -315,6 +405,81 @@ width: 500px;
 
 
 /* SECTION-3 */
+
+
+/* section-4 */
+
+
+/* 
+
+
+
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    width: 100%;
+    flex: 1 0 100%;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#slide1:checked ~ .slides {
+    transform: translateX(0);
+}
+
+#slide2:checked ~ .slides {
+    transform: translateX(-33.3333%);
+}
+
+#slide3:checked ~ .slides {
+    transform: translateX(-66.6666%);
+}
+
+.navigation {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.nav {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="radio"]:checked + .nav {
+    background-color: rgba(0, 0, 0, 0.9);
+} */
+
+
+
+/* section-4 */
 
 
 /* body */
