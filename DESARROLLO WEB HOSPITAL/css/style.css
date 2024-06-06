@@ -4,6 +4,12 @@
   box-sizing: border-box;
   
 }
+
+
+
+
+
+
 /* header */
 .header-li {
     display: flex;
@@ -429,80 +435,295 @@ width: 500px;
 
 /* SECTION-3 */
 
-
-/* section-4 */
-
-
-/* 
+/* -------------------------------------------------------------------------- */
 
 
+/* section 4 */
 
-.carousel {
-    position: relative;
-    width: 80%;
-    max-width: 600px;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.div1-map{
+
+padding-top: 150px;
+
+
 }
 
-.slides {
+
+.iframe-map {
+    height: 550px;
+    width: 100%;
+    border-radius: 2%;
+    padding-bottom: 0px;
+}
+/* -----------logo rotativo-------------------------- */
+.container {
+    height: 0px;
+    width: 75vw;
     display: flex;
-    width: 300%;
-    transition: transform 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    perspective: 5000px;
 }
 
-.slide {
-    width: 100%;
-    flex: 1 0 100%;
-}
-
-.slide img {
-    width: 100%;
-    display: block;
-}
-
-input[type="radio"] {
-    display: none;
-}
-
-#slide1:checked ~ .slides {
-    transform: translateX(0);
-}
-
-#slide2:checked ~ .slides {
-    transform: translateX(-33.3333%);
-}
-
-#slide3:checked ~ .slides {
-    transform: translateX(-66.6666%);
-}
-
-.navigation {
+.logo {
+    width: 99px;
+    height: 100px;
+    background: url(../img/logo-hospital.png);
+    background-position: center;
+    background-size: cover;
     position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
+    top: -530px;
+    right: -200px;
+    animation: rotar 7s linear infinite;
 }
-
-.nav {
-    width: 10px;
-    height: 10px;
-    margin: 0 5px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
+.logo:hover{
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
-input[type="radio"]:checked + .nav {
-    background-color: rgba(0, 0, 0, 0.9);
-} */
+@keyframes rotar{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(-360deg);
+    }
+}
+
+/* -----------logo rotativo-------------------------- */
+
+
+/* /section 4 */
+
+/* ------------------footer-------------------- */
+
+.footer{
+
+
+background-color: #0B2A4A;
+border-radius: 1%;
+height: 500px;
+width: 100%;
+
+}
+
+
+.div-principal-footer{
+
+display: flex;
+
+}
+
+/* ----------------------------------------------------------------------------------- */
+/* ---------------div1----------------------- */
+
+.div1-footer{
+
+width: 500px;
+
+
+}
+
+.h2-1-apartado1-div1-footer{
+
+padding-left: 20px;
+color: #f1f1f1;
+
+}
+
+.img-telefono-div1{
+
+padding: 0%;
+
+}
 
 
 
-/* section-4 */
+.div1-apartado1-div1-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    margin-left: 70px;
+    margin-right: 100px;
+   max-width: 500px;
+    border-bottom:  0.1px solid #d8cfcf;
+    padding-bottom: 20px;
+}
+.div2-apartado1-div1-footer{
 
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    
+    }
+
+   
+
+    .div2-apartado1-div1-footer{
+
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        margin-left: 70px;
+        margin-right: 100px;
+       max-width: 500px;
+        border-bottom:  0.1px solid #d8cfcf;
+        padding-bottom: 20px;
+
+
+    }
+
+
+    .div3-apartado1-div1-footer{
+
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        margin-left: 70px;
+        margin-right: 100px;
+       max-width: 500px;
+        border-bottom:  0.1px solid #d8cfcf;
+        padding-bottom: 20px;
+
+
+    }
+
+  .img-reloj-div3{
+
+
+padding-right: 25px;
+
+  }
+
+
+
+
+/* ------------------div1--------------------- */
+
+/* ------------------------------------------------------------------------------------- */
+
+/* --------------div2--------------------- */
+
+.div2-footer{
+justify-content: center;
+display: flex;
+width: 950px;
+border-bottom: 0.1px solid #d8cfcf ;
+
+
+}
+
+.div-h3-div2-footer{
+max-width: 500px;
+
+}
+
+.h3-div2-footer{
+
+padding-top: 130px;
+padding-left: 40px;
+color: #f1f1f1;
+padding-bottom: 100px;
+max-width: 500px;
+
+}
+
+
+.logohospital-div2-footer{
+
+width: 270px;
+padding-top: 90px;
+padding-left: 20px;
+
+}
+
+
+.img-location-div1{
+
+padding-right: 20px;
+height: 30px;
+
+
+}
+
+.h2-2-apartado1-div1-footer{
+
+color: #f1f1f1;
+
+
+}
+
+
+.h2-3-apartado1-div1-footer{
+
+color: #f1f1f1;
+
+}
+
+/* --------------div2--------------------- */
+
+
+/* ------------------------------------------------------------------------------------ */
+
+
+/* ------------------div3-------------------- */
+
+
+
+.img-facebookIcono{
+
+border-radius: 10%;
+
+
+}
+.h2-div3-footer{
+
+color: #f1f1f1;
+
+
+}
+
+.div1-img-div3-footer{
+
+    display: flex;
+    justify-content: end;
+
+}
+
+.div2-img-div3-footer{
+
+display: flex;
+justify-content: center;
+
+}
+
+
+/* --------------------div3---------------------- */
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+.h3-creditos{
+
+    font-weight: normal;
+padding-top: 20px;
+color: #f1f1f1;
+display: flex;
+justify-content: center;
+
+}
+
+
+.negrita{
+
+font-weight: bold;
+
+
+}
+
+
+
+
+/* /------------------footer-------------------- */
 
 /* body */
