@@ -23,21 +23,21 @@
 .div-img-logo-hospital{
 
     padding-top: 35px;
-padding-left: 300px;
+padding-left: 80px;
 
 }
 
 .div-header-h1-Reloj{
 
-padding-top: 50px;
+padding-top: 70px;
 padding-right: 10px;
-padding-left: 40px;
+padding-left: 5px;
 
 }
 
 .div-header-h1-p1{
 
-padding-top: 30px;
+padding-top: 50px;
 
 
 }
@@ -63,8 +63,8 @@ padding-bottom: 15px;
 
 .img-header {
     
-    width: 120px;
-    padding-left: 20px;
+    width: 150px;
+    padding-left: 10px;
     
 }
 
@@ -84,7 +84,7 @@ padding-left: 50px;
 
 .div-header-h1-telefono{
 padding-top: 20px;
-padding-right: 10px;
+padding-right: 20px;
 
 }
 
@@ -99,29 +99,33 @@ padding-right: 10px;
 .div2-header-h1{
 
     display: flex;
-    padding-left: 100px;
-    padding-top: 42px;
+    padding-left: 50px;
+    padding-top: 65px;
     
     }
     
     .div2-header-p1{
     
     padding-top: 20px;
-    
+    padding-left: 10PX;
 
     }
+
+
+
 
 
     .header-div-logogob{
         padding-left: 20px;
     padding-top: 35px;
+    padding-bottom: 10px;
 
     }
 
     .logogob {
        
-        width: 250px;
-        height: 100px;
+        width: 360px;
+        height: 130px;
         padding-right: 20px;
     }
 
@@ -667,7 +671,10 @@ color: #f1f1f1;
 
 /* ------------------div3-------------------- */
 
+.div3-footer{
+ width: 500px;
 
+}
 
 .img-facebookIcono{
 
@@ -678,14 +685,16 @@ border-radius: 10%;
 .h2-div3-footer{
 
 color: #f1f1f1;
+padding-bottom: 30px;
 
 
 }
 
 .div1-img-div3-footer{
-
+padding-top: 160px;
+padding-bottom: 20px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
 
 }
 
@@ -695,6 +704,38 @@ display: flex;
 justify-content: center;
 
 }
+
+.div3-inicio-a-div3-footer {
+    display: flex;
+    border-bottom: 0.1px solid #d8cfcf;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.a-inicio-div3-footer{
+
+color: #f1f1f1;
+padding-bottom: 20px;
+
+
+}
+
+
+.div4-contactanos-h3{
+display: flex;
+justify-content: center;
+padding-top: 20px;
+
+}
+
+
+.h3-contactanos-div4{
+
+color: #f1f1f1;
+
+}
+
 
 
 /* --------------------div3---------------------- */
